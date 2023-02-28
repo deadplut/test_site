@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-1bp)#)clq#40payu=)-nxd(31=^9u&pb=7u07qzu!=r=d#*8(7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["198.211.99.20",  '127.0.0.1']
 
 
 # Application definition
@@ -124,3 +124,9 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+#Настройки бота
+
+TELEGRAM_BOT_API_KEY = '6162854958:AAGx1k8JWRnUBTAabOjP1UBfoBxQ8QayR4k'
+
+PROXY_URL = ''
